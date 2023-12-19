@@ -3,6 +3,11 @@ header{
   text-align: center;
   padding: 1em;
 }
+div.image{
+  display: block;
+  width: 25%;
+  border-radius: 50%;
+}
 body{
   font-family: Helvetica;
   background-color: #88BDBC;
@@ -14,6 +19,26 @@ nav{
   padding: 5px;
   color: darkgray;
 
+}
+ul{
+ margin: 0;
+ padding: 0;
+ width: 20%;
+ height: 100%;
+ position: fixed;
+ overflow: auto;
+ filter: brightness(12);
+}
+li a{
+  display: block;
+  padding: 8px 16px;
+  
+
+}
+div.sections{
+  margin-left: 20%;
+  padding: 1px 16px;
+  height: 1000px;
 }
 .contact-form{
 max-width: 400px;
