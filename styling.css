@@ -3,22 +3,23 @@ header{
   text-align: center;
   padding: 1em;
 }
-div.image{
-  display: block;
-  width: 25%;
-  border-radius: 50%;
-}
 body{
   font-family: Helvetica;
   background-color: #88BDBC;
   color: white;
 }
 nav{
-  display: block;
+  display: inline;
   margin:0px 15px;
   padding: 5px;
   color: darkgray;
-
+}
+img{
+  position: fixed;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
 }
 ul{
  margin: 0;
@@ -28,14 +29,13 @@ ul{
  position: fixed;
  overflow: auto;
  filter: brightness(12);
+ display: table;
 }
 li a{
   display: block;
   padding: 8px 16px;
-  
-
 }
-div.sections{
+div.sectionsbody{
   margin-left: 20%;
   padding: 1px 16px;
   height: 1000px;
